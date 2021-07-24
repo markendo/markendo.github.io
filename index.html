@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta name="generator" content="Hugo 0.85.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mark Endo</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+
+
+
+<div class="top-header">
+    <div style="float:left;width:13em;">
+        <img src="/profile_picture.png" style="border-radius:50%;"/>
+    </div>
+    <div style="margin-left:15em;">
+        <h1>Mark Endo</h1>
+        <h3>Undergraduate AI Researcher at Stanford University</h3>
+        <a href="mailto:markendo@cs.stanford.edu">markendo@cs.stanford.edu</a>
+        <p><a href="https://github.com/markendo">GitHub</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=DJd9uDcAAAAJ&amp;hl=en">Google Scholar</a> &nbsp;&nbsp; <a href="https://twitter.com/mark_endo1">Twitter</a></p>
+    </div>
+</div>
+<div class="biography">
+    <div style="max-width:75%;margin: auto;">
+        
+        <p><p>My research interest lies in developing deep learning solutions to aid decision making in settings such as medicine. I first got into AI research because I wanted to apply my background of music technology and music production to help develop a system that screens for COVID-19 using the sound of someone’s cough. From that experience, I saw how AI solutions have the potential to immensely impact people’s lives. At the same time, I realized the potential dangers that AI systems can have, especially if there is a lot of trust put into them. This year, I worked on medical imaging vision models in radiology to help establish clinician trust. I hope to tackle high-impact problems and develop vision systems to better people’s lives.</p>
+</p>
+    
+    </div>
+</div>
+<div class=main-body>
+    <h1>Projects</h1>
+    <hr/>
+
+    
+    
+    
+    <div class="projects">
+        <img src=CheXseg.png style="max-width:40%;min-width:40px;float:left;margin:1em;margin-left:0em;" />
+        <h2>CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation</h2>
+        <hr/>
+        <p><p>Abstract: Medical image segmentation models are typically supervised by expert annotations at the pixel-level, which can be expensive to acquire. In this work, we propose a method that combines the high quality of pixel-level expert annotations with the scale of coarse DNN-generated saliency maps for training multi-label semantic segmentation models. We demonstrate the application of our semi-supervised method, which we call CheXseg, on multi-label chest X-ray interpretation. We find that CheXseg improves upon the performance (mIoU) of fully-supervised methods that use only pixel-level expert annotations by 9.7% and weakly-supervised methods that use only DNN-generated saliency maps by 73.1%. Our best method is able to match radiologist agreement on three out of ten pathologies and reduces the overall performance gap by 57.2% as compared to weakly-supervised methods.</p>
+</p>
+        <ul class="list-inline">
+            
+                
+                    <li>
+                        <a class="btn" href=https://arxiv.org/abs/2102.10484>Paper (MIDL 2021)</a>
+                    </li>
+                
+                    <li>
+                        <a class="btn" href=https://github.com/stanfordmlgroup/CheXseg>Code</a>
+                    </li>
+                
+                    <li>
+                        <a class="btn" href=https://2021.midl.io/papers/l9>MIDL Content</a>
+                    </li>
+                
+            
+        </ul>
+    </div>
+    
+    
+    <div class="projects">
+        <img src=BioXtract.png style="max-width:40%;min-width:40px;float:left;margin:1em;margin-left:0em;" />
+        <h2>BioXtract: Learning Biomedical Knowledge From General and Random Data</h2>
+        <hr/>
+        <p><p>Abstract: The privacy of medical documents and protected healthcare information can oftentimes limit the accessibility of accurate biomedical natural language processing
+models. Distillation can be used to transfer knowledge from these models, but it
+typically relies on having related data to distill on. In this work, we investigate the
+distillation of BERT-based biomedical models using transfer datasets from varying
+domains, including general data, randomized general data, and biomedical data.
+We find that general data can be used to learn task-specific biomedical knowledge,
+especially when we can initialize student models with similar weights to the teacher.
+We observe that randomized general data can also be used to transfer knowledge,
+but it is not as effective as general data. We hope that our findings bring attention
+to both the benefits and potential dangers of the widespread use of mixed-domain
+pretraining in NLP, particularly relating to models that continue their pretraining
+process on private data.</p>
+</p>
+        <ul class="list-inline">
+            
+                
+                    <li>
+                        <a class="btn" href=https://web.stanford.edu/class/cs224n/reports/final_reports/report037.pdf>Paper</a>
+                    </li>
+                
+            
+        </ul>
+    </div>
+    
+</div>
+
+
+
+  <footer>
+  
+
+  
+  
+  
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Mark Endo</title>
+    <link>https://markendo.github.io/projects/</link>
+    <description>Recent content in Projects on Mark Endo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://markendo.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation</title>
+      <link>https://markendo.github.io/projects/chexseg/</link>
+      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://markendo.github.io/projects/chexseg/</guid>
+      <description>Abstract: Medical image segmentation models are typically supervised by expert annotations at the pixel-level, which can be expensive to acquire. In this work, we propose a method that combines the high quality of pixel-level expert annotations with the scale of coarse DNN-generated saliency maps for training multi-label semantic segmentation models. We demonstrate the application of our semi-supervised method, which we call CheXseg, on multi-label chest X-ray interpretation. We find that CheXseg improves upon the performance (mIoU) of fully-supervised methods that use only pixel-level expert annotations by 9.</description>
+    </item>
+    
+    <item>
+      <title>BioXtract: Learning Biomedical Knowledge From General and Random Data</title>
+      <link>https://markendo.github.io/projects/bioxtract/</link>
+      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://markendo.github.io/projects/bioxtract/</guid>
+      <description>Abstract: The privacy of medical documents and protected healthcare information can oftentimes limit the accessibility of accurate biomedical natural language processing models. Distillation can be used to transfer knowledge from these models, but it typically relies on having related data to distill on. In this work, we investigate the distillation of BERT-based biomedical models using transfer datasets from varying domains, including general data, randomized general data, and biomedical data. We find that general data can be used to learn task-specific biomedical knowledge, especially when we can initialize student models with similar weights to the teacher.</description>
+    </item>
+    
+  </channel>
+</rss>
