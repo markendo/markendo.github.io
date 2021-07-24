@@ -57,6 +57,7 @@ ul {
   transition: all 0.5s;
   padding: 0em 1em;
   margin-right: 1em;
+  margin-bottom: 5px;
   white-space: nowrap;
 }
 .btn:hover {
