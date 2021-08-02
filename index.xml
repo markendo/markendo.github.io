@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Utilizing Self-Supervised Contrastive Learning For Clinically Accurate Free-Text Report Generation On Unseen Data (In Progress)</title>
+      <link>https://markendo.github.io/projects/report-clip/</link>
+      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://markendo.github.io/projects/report-clip/</guid>
+      <description>Abstract: Advancements in self-supervised learning have led to the creation of models that generalize to unseen datasets through zero-shot learning techniques, but these models have yet to be applied to the setting of free-text radiology report generation. In this work, we develop a retrieval-based radiology report generation method that utilizes self-supervised contrastive learning to generate clinically accurate reports on unseen data. Our method outperforms both the SOTA generative method and baseline retrieval methods in clinical accuracy metrics on the external CheXpert dataset.</description>
+    </item>
+    
+    <item>
       <title>BioXtract: Learning Biomedical Knowledge From General and Random Data</title>
       <link>https://markendo.github.io/projects/bioxtract/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
@@ -31,7 +40,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://markendo.github.io/about_me/</guid>
-      <description>My research interest lies in developing deep learning solutions to aid decision making in settings such as medicine. I first got into AI research because I wanted to apply my background of music technology and music production to help develop a system that screens for COVID-19 using the sound of someone’s cough. From that experience, I saw how AI solutions have the potential to immensely impact people’s lives. At the same time, I realized the potential dangers that AI systems can have, especially if there is a lot of trust put into them.</description>
+      <description>Hi! I&amp;rsquo;m an undergraduate researcher at Stanford University with a passion for AI and health. I am currently a junior, studying computer science with a depth in artificial intelligence. My research interest lies in creating deep learning solutions to aid decision making in settings such as medicine. I have published work on developing medical imaging models in radiology to help establish clinician trust. My goal is to tackle high-impact problems and develop systems to better people&amp;rsquo;s lives.</description>
     </item>
     
   </channel>

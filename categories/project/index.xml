@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Utilizing Self-Supervised Contrastive Learning For Clinically Accurate Free-Text Report Generation On Unseen Data (In Progress)</title>
+      <link>https://markendo.github.io/projects/report-clip/</link>
+      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://markendo.github.io/projects/report-clip/</guid>
+      <description>Abstract: Advancements in self-supervised learning have led to the creation of models that generalize to unseen datasets through zero-shot learning techniques, but these models have yet to be applied to the setting of free-text radiology report generation. In this work, we develop a retrieval-based radiology report generation method that utilizes self-supervised contrastive learning to generate clinically accurate reports on unseen data. Our method outperforms both the SOTA generative method and baseline retrieval methods in clinical accuracy metrics on the external CheXpert dataset.</description>
+    </item>
+    
+    <item>
       <title>BioXtract: Learning Biomedical Knowledge From General and Random Data</title>
       <link>https://markendo.github.io/projects/bioxtract/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>

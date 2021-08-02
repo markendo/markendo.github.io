@@ -10,10 +10,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
 <link rel="manifest" href="/site.webmanifest">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -23,19 +27,26 @@
 
 <div class="top-header">
     <div style="float:left;width:19%;">
-        <img src="/profile_picture.png" style="border-radius:50%;"/>
+        <img src="/profile_picture.jpg" style="border-radius:50%;"/>
     </div>
     <div style="margin-left:22%;">
         <h1>Mark Endo</h1>
         <h3>Undergraduate AI Researcher at Stanford University</h3>
         <a href="mailto:markendo@cs.stanford.edu">markendo@cs.stanford.edu</a>
-        <p><a href="https://github.com/markendo">GitHub</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=DJd9uDcAAAAJ&amp;hl=en">Google Scholar</a> &nbsp;&nbsp; <a href="https://twitter.com/mark_endo1">Twitter</a></p>
+        <p>
+            <a href="https://github.com/markendo"><i class="fa fa-github" style='color: black;'></i> GitHub</a>
+            &nbsp;&nbsp;
+            <a href="https://scholar.google.com/citations?user=DJd9uDcAAAAJ&amp;hl=en">Google Scholar</a>
+            &nbsp;&nbsp; 
+            <a href="https://twitter.com/mark_endo1"><i class="fa fa-twitter" style='color: #1DA1F2;'></i> Twitter</a>
+        
+        </p>
     </div>
 </div>
 <div class="biography">
     <div style="max-width:75%;margin: auto;">
         
-        <p><p>My research interest lies in developing deep learning solutions to aid decision making in settings such as medicine. I first got into AI research because I wanted to apply my background of music technology and music production to help develop a system that screens for COVID-19 using the sound of someone’s cough. From that experience, I saw how AI solutions have the potential to immensely impact people’s lives. At the same time, I realized the potential dangers that AI systems can have, especially if there is a lot of trust put into them. This year, I worked on medical imaging vision models in radiology to help establish clinician trust. I hope to tackle high-impact problems and develop vision systems to better people’s lives.</p>
+        <p><p>Hi! I&rsquo;m an undergraduate researcher at Stanford University with a passion for AI and health. I am currently a junior, studying computer science with a depth in artificial intelligence. My research interest lies in creating deep learning solutions to aid decision making in settings such as medicine. I have published work on developing medical imaging models in radiology to help establish clinician trust. My goal is to tackle high-impact problems and develop systems to better people&rsquo;s lives. Apart from my research, I&rsquo;m also a section leader for the introductory computer science course at Stanford. In my free time, I like to play guitar, produce music, and surf 🏄.</p>
 </p>
     
     </div>
@@ -49,7 +60,7 @@
     
     <div class="projects">
         <img src=CheXseg.png style="max-width:40%;min-width:40px;float:left;margin:1em;margin-left:0em;" />
-        <h2>CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation</h2>
+        <h2 style="line-height: 1.2em;">CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation</h2>
         <hr/>
         <p><p>Abstract: Medical image segmentation models are typically supervised by expert annotations at the pixel-level, which can be expensive to acquire. In this work, we propose a method that combines the high quality of pixel-level expert annotations with the scale of coarse DNN-generated saliency maps for training multi-label semantic segmentation models. We demonstrate the application of our semi-supervised method, which we call CheXseg, on multi-label chest X-ray interpretation. We find that CheXseg improves upon the performance (mIoU) of fully-supervised methods that use only pixel-level expert annotations by 9.7% and weakly-supervised methods that use only DNN-generated saliency maps by 73.1%. Our best method is able to match radiologist agreement on three out of ten pathologies and reduces the overall performance gap by 57.2% as compared to weakly-supervised methods.</p>
 </p>
@@ -78,8 +89,20 @@
     
     
     <div class="projects">
+        <img src=Report-clip.png style="max-width:40%;min-width:40px;float:left;margin:1em;margin-left:0em;" />
+        <h2 style="line-height: 1.2em;">Utilizing Self-Supervised Contrastive Learning For Clinically Accurate Free-Text Report Generation On Unseen Data (In Progress)</h2>
+        <hr/>
+        <p><p>Abstract: Advancements in self-supervised learning have led to the creation of models that generalize to unseen datasets through zero-shot learning techniques, but these models have yet to be applied to the setting of free-text radiology report generation. In this work, we develop a retrieval-based radiology report generation method that utilizes self-supervised contrastive learning to generate clinically accurate reports on unseen data. Our method outperforms both the SOTA generative method and baseline retrieval methods in clinical accuracy metrics on the external CheXpert dataset. In particular, our model exhibits significantly better diagnostic performance with an average F1 score of 0.532 over the generative model with an F1 score of 0.240. We expect that our method can be broadly useful in improving the generalization of report generation models and enabling the use of these systems in clinical workflows.</p>
+</p>
+        <ul class="list-inline">
+            
+        </ul>
+    </div>
+    
+    
+    <div class="projects">
         <img src=BioXtract.png style="max-width:40%;min-width:40px;float:left;margin:1em;margin-left:0em;" />
-        <h2>BioXtract: Learning Biomedical Knowledge From General and Random Data</h2>
+        <h2 style="line-height: 1.2em;">BioXtract: Learning Biomedical Knowledge From General and Random Data</h2>
         <hr/>
         <p><p>Abstract: The privacy of medical documents and protected healthcare information can oftentimes limit the accessibility of accurate biomedical natural language processing
 models. Distillation can be used to transfer knowledge from these models, but it
