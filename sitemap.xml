@@ -2,33 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://markendo.github.io/projects/chexseg/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://markendo.github.io/projects/report-clip/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markendo.github.io/projects/chexseg/</loc>
   </url><url>
     <loc>https://markendo.github.io/projects/bioxtract/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://markendo.github.io/categories/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://markendo.github.io/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://markendo.github.io/tags/markdown/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://markendo.github.io/categories/project/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://markendo.github.io/projects/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://markendo.github.io/tags/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://markendo.github.io/about_me/</loc>
+  </url><url>
+    <loc>https://markendo.github.io/categories/</loc>
+  </url><url>
+    <loc>https://markendo.github.io/</loc>
+  </url><url>
+    <loc>https://markendo.github.io/tags/markdown/</loc>
+  </url><url>
+    <loc>https://markendo.github.io/categories/project/</loc>
+  </url><url>
+    <loc>https://markendo.github.io/projects/</loc>
+  </url><url>
+    <loc>https://markendo.github.io/tags/</loc>
   </url>
 </urlset>

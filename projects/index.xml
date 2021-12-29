@@ -5,30 +5,29 @@
     <link>https://markendo.github.io/projects/</link>
     <description>Recent content in Projects on Mark Endo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://markendo.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://markendo.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Retrieval-Based Chest X-Ray Report Generation Using a Pre-trained Contrastive Language-Image Model</title>
+      <link>https://markendo.github.io/projects/report-clip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://markendo.github.io/projects/report-clip/</guid>
+      <description>Abstract: We propose CXR-RePaiR: a retrieval-based radiology report generation approach using a pre-trained contrastive language-image model. Our method generates clinically accurate reports on both in-distribution and out-of-distribution data. CXR-RePaiR outperforms or matches prior report generation methods on clinical metrics, achieving an average F1 score of 0.352 (Δ+7.98%) on an external radiology dataset (CheXpert). Further, we implement a compression approach used to reduce the size of the reference corpus and speed up the runtime of our retrieval method.</description>
+    </item>
+    
     <item>
       <title>CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation</title>
       <link>https://markendo.github.io/projects/chexseg/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://markendo.github.io/projects/chexseg/</guid>
       <description>Abstract: Medical image segmentation models are typically supervised by expert annotations at the pixel-level, which can be expensive to acquire. In this work, we propose a method that combines the high quality of pixel-level expert annotations with the scale of coarse DNN-generated saliency maps for training multi-label semantic segmentation models. We demonstrate the application of our semi-supervised method, which we call CheXseg, on multi-label chest X-ray interpretation. We find that CheXseg improves upon the performance (mIoU) of fully-supervised methods that use only pixel-level expert annotations by 9.</description>
     </item>
     
     <item>
-      <title>Utilizing Self-Supervised Contrastive Learning For Clinically Accurate Free-Text Report Generation On Unseen Data (In Progress)</title>
-      <link>https://markendo.github.io/projects/report-clip/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://markendo.github.io/projects/report-clip/</guid>
-      <description>Abstract: Advancements in self-supervised learning have led to the creation of models that generalize to unseen datasets through zero-shot learning techniques, but these models have yet to be applied to the setting of free-text radiology report generation. In this work, we develop a retrieval-based radiology report generation method that utilizes self-supervised contrastive learning to generate clinically accurate reports on unseen data. Our method outperforms both the SOTA generative method and baseline retrieval methods in clinical accuracy metrics on the external CheXpert dataset.</description>
-    </item>
-    
-    <item>
       <title>BioXtract: Learning Biomedical Knowledge From General and Random Data</title>
       <link>https://markendo.github.io/projects/bioxtract/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://markendo.github.io/projects/bioxtract/</guid>
       <description>Abstract: The privacy of medical documents and protected healthcare information can oftentimes limit the accessibility of accurate biomedical natural language processing models. Distillation can be used to transfer knowledge from these models, but it typically relies on having related data to distill on. In this work, we investigate the distillation of BERT-based biomedical models using transfer datasets from varying domains, including general data, randomized general data, and biomedical data. We find that general data can be used to learn task-specific biomedical knowledge, especially when we can initialize student models with similar weights to the teacher.</description>

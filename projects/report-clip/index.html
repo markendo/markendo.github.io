@@ -22,13 +22,13 @@
   <body>
 
 <div class="article-meta">
-<h1><span class="title">Utilizing Self-Supervised Contrastive Learning For Clinically Accurate Free-Text Report Generation On Unseen Data (In Progress)</span></h1>
+<h1><span class="title">Retrieval-Based Chest X-Ray Report Generation Using a Pre-trained Contrastive Language-Image Model</span></h1>
 
-<h2 class="date">2015/07/23</h2>
+
 </div>
 
 <main>
-<p>Abstract: Advancements in self-supervised learning have led to the creation of models that generalize to unseen datasets through zero-shot learning techniques, but these models have yet to be applied to the setting of free-text radiology report generation. In this work, we develop a retrieval-based radiology report generation method that utilizes self-supervised contrastive learning to generate clinically accurate reports on unseen data. Our method outperforms both the SOTA generative method and baseline retrieval methods in clinical accuracy metrics on the external CheXpert dataset. In particular, our model exhibits significantly better diagnostic performance with an average F1 score of 0.532 over the generative model with an F1 score of 0.240. We expect that our method can be broadly useful in improving the generalization of report generation models and enabling the use of these systems in clinical workflows.</p>
+<p>Abstract: We propose CXR-RePaiR: a retrieval-based radiology report generation approach using a pre-trained contrastive language-image model. Our method generates clinically accurate reports on both in-distribution and out-of-distribution data. CXR-RePaiR outperforms or matches prior report generation methods on clinical metrics, achieving an average F1 score of 0.352 (Δ+7.98%) on an external radiology dataset (CheXpert). Further, we implement a compression approach used to reduce the size of the reference corpus and speed up the runtime of our retrieval method. With compression, our model maintains similar performance while producing reports 70% faster than the best generative model. Our approach can be broadly useful in improving the diagnostic performance and generalizability of report generation models and enabling their use in clinical workflows.</p>
 
 </main>
 
