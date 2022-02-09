@@ -33,5 +33,14 @@
       <description>Abstract: The privacy of medical documents and protected healthcare information can oftentimes limit the accessibility of accurate biomedical natural language processing models. Distillation can be used to transfer knowledge from these models, but it typically relies on having related data to distill on. In this work, we investigate the distillation of BERT-based biomedical models using transfer datasets from varying domains, including general data, randomized general data, and biomedical data. We find that general data can be used to learn task-specific biomedical knowledge, especially when we can initialize student models with similar weights to the teacher.</description>
     </item>
     
+    <item>
+      <title>Tutorial - Knowledge Graph Embeddings: Simplistic and Powerful Representations</title>
+      <link>https://markendo.github.io/projects/transe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://markendo.github.io/projects/transe/</guid>
+      <description>I created this tutorial as part of the Stanford CS224W course project. In the tutorial, I analyze the power of knowledge graph (KG) embedding representations through the task of predicting missing triples in the Freebase dataset. First, I overview knowledge graphs and discuss the task of predicting missing triplets. Second, I look at a popular dataset used to learn KG models, namely FB15k-237. Third, I implement a popular KG method for learning knowledge graph embeddings (namely TransE) and analyze the results.</description>
+    </item>
+    
   </channel>
 </rss>
