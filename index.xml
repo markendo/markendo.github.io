@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://markendo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>GaitForeMer: Self-Supervised Pre-Training of Transformers via Human Motion Forecasting for Few-Shot Gait Impairment Severity Estimation</title>
+      <link>https://markendo.github.io/projects/gaitforemer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://markendo.github.io/projects/gaitforemer/</guid>
+      <description>Parkinson&amp;rsquo;s disease (PD) is a neurological disorder that has a variety of observable motor-related symptoms such as slow movement, tremor, muscular rigidity, and impaired posture. PD is typically diagnosed by evaluating the severity of motor impairments according to scoring systems such as the Movement Disorder Society Unified Parkinson&amp;rsquo;s Disease Rating Scale (MDS-UPDRS). Automated severity prediction using video recordings of individuals provides a promising route for non-intrusive monitoring of motor impairments. However, the limited size of PD gait data hinders model ability and clinical potential.</description>
+    </item>
+    
+    <item>
       <title>Retrieval-Based Chest X-Ray Report Generation Using a Pre-trained Contrastive Language-Image Model</title>
       <link>https://markendo.github.io/projects/report-clip/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -48,7 +57,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://markendo.github.io/about_me/</guid>
-      <description>Hi! I&amp;rsquo;m an undergraduate researcher at Stanford University with a passion for AI and health. I am currently a junior, studying computer science with a depth in artificial intelligence. My research interest lies in creating deep learning solutions to aid decision making in settings such as medicine. I have published work on developing medical imaging models in radiology to help establish clinician trust. My goal is to tackle high-impact problems and develop systems to better people&amp;rsquo;s lives.</description>
+      <description>Hi! I&amp;rsquo;m an undergraduate researcher at Stanford University with a passion for AI and health. I am currently a senior studying computer science with a depth in artificial intelligence. My research interest lies in creating deep learning solutions to aid decision making in settings such as medicine. I have published work on developing medical imaging models in radiology to help establish clinician trust. My goal is to tackle high-impact problems and develop systems to better people&amp;rsquo;s lives.</description>
     </item>
     
   </channel>
