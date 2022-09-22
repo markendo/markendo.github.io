@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="/css/fonts.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
     
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -46,150 +47,404 @@
 <div class="biography">
     <div style="max-width:75%;margin: auto;">
         
-        <p><p>Hi! I&rsquo;m an undergraduate researcher at Stanford University with a passion for AI and health. I am currently a senior studying computer science with a depth in artificial intelligence. My research interest lies in creating deep learning solutions to aid decision making in settings such as medicine. I have published work on developing medical imaging models in radiology to help establish clinician trust. My goal is to tackle high-impact problems and develop systems to better people&rsquo;s lives. Apart from my research, I&rsquo;m also a section leader for the introductory computer science course at Stanford. In my free time, I like to play guitar, produce music, and surf 🏄.</p>
+        <p><p>Hi! I&rsquo;m an undergraduate researcher at Stanford University with a passion for AI and health. I am currently a senior studying computer science with a depth in artificial intelligence. My research interest lies in creating deep learning solutions to aid decision making in settings such as medicine. I have published work on developing methods for medical imaging, radiology report generation, and gait impariment severity estimation. My goal is to tackle high-impact problems and develop systems to better people&rsquo;s lives. In my free time, I like to play guitar, produce music, and surf 🏄.</p>
 </p>
     
     </div>
 </div>
 <div class=main-body>
-    <h1>Projects</h1>
+    <h1>Publications</h1>
     <hr/>
 
     
     
     
     <div class="projects">
-        <img src=GaitForeMer.png style="max-width:40%;min-width:40px;float:left;margin:1em;margin-left:0em;" />
-        <h2 style="line-height: 1.2em;">GaitForeMer: Self-Supervised Pre-Training of Transformers via Human Motion Forecasting for Few-Shot Gait Impairment Severity Estimation</h2>
-        <hr/>
-        <p><p>Abstract: Parkinson&rsquo;s disease (PD) is a neurological disorder that has a variety of observable motor-related symptoms such as slow movement, tremor, muscular rigidity, and impaired posture. PD is typically diagnosed by evaluating the severity of motor impairments according to scoring systems such as the Movement Disorder Society Unified Parkinson&rsquo;s Disease Rating Scale (MDS-UPDRS). Automated severity prediction using video recordings of individuals provides a promising route for non-intrusive monitoring of motor impairments. However, the limited size of PD gait data hinders model ability and clinical potential. Because of this clinical data scarcity and inspired by the recent advances in self-supervised large-scale language models like GPT-3, we use human motion forecasting as an effective self-supervised pre-training task for the estimation of motor impairment severity. We introduce <strong>GaitForeMer</strong>, <u>Gait</u> <u>Fore</u>casting and impairment estimation transfor<u>Mer</u>, which is first pre-trained on public datasets to forecast gait movements and then applied to clinical data to predict MDS-UPDRS gait impairment severity. Our method outperforms previous approaches that rely solely on clinical data by a large margin, achieving an F1 score of 0.76, precision of 0.79, and recall of 0.75. Using GaitForeMer, we show how public human movement data repositories can assist clinical use cases through learning universal motion representations.</p>
-</p>
-        <ul class="list-inline">
+        
+        <div style="width:25%;float:left;">
+            <img src=GaitForeMer.png/>
+        </div>
+
+        <div style="width:75%;float:left;">
+            <div style="margin-left:1em;">
+                <h3 style="line-height: 1.2em;margin-block-start:0em;">GaitForeMer: Self-Supervised Pre-Training of Transformers via Human Motion Forecasting for Few-Shot Gait Impairment Severity Estimation</h3>
+                
+                <p><i>Medical Image Computing and Computer Assisted Intervention (MICCAI 2022)</i></p>
+                <div style="color: #777777;">
+                    
+                        
+                        
+                        
+
+                            
+                                <span style="color: #000000;font-weight: 600; ">Mark Endo</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Kathleen Poston</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Edith Sullivan</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Li Fei-Fei</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Kilian Pohl</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Ehsan Adeli</span>
+                            
+                            
+                        
+                    
+                </div>
+    
+                <p>
+                    
+                        
+                                [<a href=https://arxiv.org/pdf/2207.00106.pdf>Paper</a>]
+                        
+                                [<a href=https://github.com/markendo/GaitForeMer>Code</a>]
+                        
+                    
+                </p>
+            </div>
             
-                
-                    <li>
-                        <a class="btn" href=https://arxiv.org/pdf/2207.00106.pdf>Paper (MICCAI 2022)</a>
-                    </li>
-                
-                    <li>
-                        <a class="btn" href=https://github.com/markendo/GaitForeMer>Code</a>
-                    </li>
-                
             
-        </ul>
+        </div>
     </div>
     
     
     <div class="projects">
-        <img src=cxr_repair_combined_image.png style="max-width:40%;min-width:40px;float:left;margin:1em;margin-left:0em;" />
-        <h2 style="line-height: 1.2em;">Retrieval-Based Chest X-Ray Report Generation Using a Pre-trained Contrastive Language-Image Model</h2>
-        <hr/>
-        <p><p>Abstract: We propose CXR-RePaiR: a retrieval-based radiology report generation approach using a pre-trained contrastive language-image model. Our method generates clinically accurate reports on both in-distribution and out-of-distribution data. CXR-RePaiR outperforms or matches prior report generation methods on clinical metrics, achieving an average F1 score of 0.352 (Δ+7.98%) on an external radiology dataset (CheXpert). Further, we implement a compression approach used to reduce the size of the reference corpus and speed up the runtime of our retrieval method. With compression, our model maintains similar performance while producing reports 70% faster than the best generative model. Our approach can be broadly useful in improving the diagnostic performance and generalizability of report generation models and enabling their use in clinical workflows.</p>
-</p>
-        <ul class="list-inline">
+        
+        <div style="width:25%;float:left;">
+            <img src=Evaluating-cxr-progress.png/>
+        </div>
+
+        <div style="width:75%;float:left;">
+            <div style="margin-left:1em;">
+                <h3 style="line-height: 1.2em;margin-block-start:0em;">Evaluating Progress in Automatic Chest X-Ray Radiology Report Generation</h3>
+                
+                <p><i>(pre-print)</i></p>
+                <div style="color: #777777;">
+                    
+                        
+                        
+                        
+
+                            
+                                <span>Feiyang Yu*</span>, 
+                            
+                            
+                        
+
+                            
+                                <span style="color: #000000;font-weight: 600; ">Mark Endo*</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Rayan Krishnan*</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Ian Pan</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Andy Tsai</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Eduardo Pontes Reis</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Eduardo Kaiser Ururahy Nunes Fonseca</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Henrique Min Ho Lee</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Zahra Shakeri Hossein Abad</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Andrew Y. Ng</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Curtis P. Langlotz</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Vasantha Kumar Venugopal</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Pranav Rajpurkar</span>
+                            
+                            
+                        
+                    
+                </div>
+    
+                <p>
+                    
+                        
+                                [<a href=https://www.medrxiv.org/content/medrxiv/early/2022/08/31/2022.08.30.22279318.full.pdf>Paper</a>]
+                        
+                    
+                </p>
+            </div>
             
-                
-                    <li>
-                        <a class="btn" href=https://proceedings.mlr.press/v158/endo21a.html>Paper (ML4H 2021)</a>
-                    </li>
-                
-                    <li>
-                        <a class="btn" href=https://github.com/rajpurkarlab/CXR-RePaiR>Code</a>
-                    </li>
-                
-                    <li>
-                        <a class="btn" href=https://ml4health.github.io/2021/poster_E2.html>ML4H Content</a>
-                    </li>
-                
             
-        </ul>
+        </div>
     </div>
     
     
     <div class="projects">
-        <img src=CheXseg.png style="max-width:40%;min-width:40px;float:left;margin:1em;margin-left:0em;" />
-        <h2 style="line-height: 1.2em;">CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation</h2>
-        <hr/>
-        <p><p>Abstract: Medical image segmentation models are typically supervised by expert annotations at the pixel-level, which can be expensive to acquire. In this work, we propose a method that combines the high quality of pixel-level expert annotations with the scale of coarse DNN-generated saliency maps for training multi-label semantic segmentation models. We demonstrate the application of our semi-supervised method, which we call CheXseg, on multi-label chest X-ray interpretation. We find that CheXseg improves upon the performance (mIoU) of fully-supervised methods that use only pixel-level expert annotations by 9.7% and weakly-supervised methods that use only DNN-generated saliency maps by 73.1%. Our best method is able to match radiologist agreement on three out of ten pathologies and reduces the overall performance gap by 57.2% as compared to weakly-supervised methods.</p>
-</p>
-        <ul class="list-inline">
+        
+        <div style="width:25%;float:left;">
+            <img src=cxr_repair_combined_image.png/>
+        </div>
+
+        <div style="width:75%;float:left;">
+            <div style="margin-left:1em;">
+                <h3 style="line-height: 1.2em;margin-block-start:0em;">Retrieval-Based Chest X-Ray Report Generation Using a Pre-trained Contrastive Language-Image Model</h3>
+                
+                <p><i>Machine Learning for Health (ML4H 2021)</i></p>
+                <div style="color: #777777;">
+                    
+                        
+                        
+                        
+
+                            
+                                <span style="color: #000000;font-weight: 600; ">Mark Endo*</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Rayan Krishnan*</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Viswesh Krishna</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Andrew Y. Ng</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Pranav Rajpurkar</span>
+                            
+                            
+                        
+                    
+                </div>
+    
+                <p>
+                    
+                        
+                                [<a href=https://proceedings.mlr.press/v158/endo21a.html>Paper</a>]
+                        
+                                [<a href=https://github.com/rajpurkarlab/CXR-RePaiR>Code</a>]
+                        
+                                [<a href=https://ml4health.github.io/2021/poster_E2.html>ML4H Content</a>]
+                        
+                    
+                </p>
+            </div>
             
-                
-                    <li>
-                        <a class="btn" href=https://proceedings.mlr.press/v143/gadgil21a.html>Paper (MIDL 2021)</a>
-                    </li>
-                
-                    <li>
-                        <a class="btn" href=https://github.com/stanfordmlgroup/CheXseg>Code</a>
-                    </li>
-                
-                    <li>
-                        <a class="btn" href=https://youtu.be/U8P4U2nouDo?t&#61;1598>OpenCV Webinar</a>
-                    </li>
-                
-                    <li>
-                        <a class="btn" href=https://youtu.be/pUZgiuHbk2o?t&#61;391>Spotlight Presentation</a>
-                    </li>
-                
-                    <li>
-                        <a class="btn" href=https://2021.midl.io/papers/l9>MIDL Content</a>
-                    </li>
-                
             
-        </ul>
+        </div>
     </div>
     
     
     <div class="projects">
-        <img src=BioXtract.png style="max-width:40%;min-width:40px;float:left;margin:1em;margin-left:0em;" />
-        <h2 style="line-height: 1.2em;">BioXtract: Learning Biomedical Knowledge From General and Random Data</h2>
-        <hr/>
-        <p><p>Abstract: The privacy of medical documents and protected healthcare information can oftentimes limit the accessibility of accurate biomedical natural language processing
-models. Distillation can be used to transfer knowledge from these models, but it
-typically relies on having related data to distill on. In this work, we investigate the
-distillation of BERT-based biomedical models using transfer datasets from varying
-domains, including general data, randomized general data, and biomedical data.
-We find that general data can be used to learn task-specific biomedical knowledge,
-especially when we can initialize student models with similar weights to the teacher.
-We observe that randomized general data can also be used to transfer knowledge,
-but it is not as effective as general data. We hope that our findings bring attention
-to both the benefits and potential dangers of the widespread use of mixed-domain
-pretraining in NLP, particularly relating to models that continue their pretraining
-process on private data.</p>
-</p>
-        <ul class="list-inline">
-            
+        
+        <div style="width:25%;float:left;">
+            <img src=CheXseg.png/>
+        </div>
+
+        <div style="width:75%;float:left;">
+            <div style="margin-left:1em;">
+                <h3 style="line-height: 1.2em;margin-block-start:0em;">CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation</h3>
                 
-                    <li>
-                        <a class="btn" href=https://web.stanford.edu/class/cs224n/reports/final_reports/report037.pdf>Paper</a>
-                    </li>
-                
+                <p><i>Medical Imaging with Deep Learning (MIDL 2021)</i></p>
+                <div style="color: #777777;">
+                    
+                        
+                        
+                        
+
+                            
+                                <span>Soham Gadgil*</span>, 
+                            
+                            
+                        
+
+                            
+                                <span style="color: #000000;font-weight: 600; ">Mark Endo*</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Emily Wen*</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Andrew Y. Ng</span>, 
+                            
+                            
+                        
+
+                            
+                                <span>Pranav Rajpurkar</span>
+                            
+                            
+                        
+                    
+                </div>
+    
+                <p>
+                    
+                        
+                                [<a href=https://proceedings.mlr.press/v143/gadgil21a.html>Paper</a>]
+                        
+                                [<a href=https://github.com/stanfordmlgroup/CheXseg>Code</a>]
+                        
+                                [<a href=https://youtu.be/U8P4U2nouDo?t&#61;1598>OpenCV Webinar</a>]
+                        
+                                [<a href=https://youtu.be/pUZgiuHbk2o?t&#61;391>Spotlight Presentation</a>]
+                        
+                                [<a href=https://2021.midl.io/papers/l9>MIDL Content</a>]
+                        
+                    
+                </p>
+            </div>
             
-        </ul>
+            
+        </div>
     </div>
     
+
+    <h1>Other projects</h1>
+    <hr/>
+
     
+    
+    
+    
+
     <div class="projects">
-        <img src=TransE_blog_formatted_thumbnail.png style="max-width:40%;min-width:40px;float:left;margin:1em;margin-left:0em;" />
-        <h2 style="line-height: 1.2em;">Tutorial - Knowledge Graph Embeddings: Simplistic and Powerful Representations</h2>
-        <hr/>
-        <p><p>I created this tutorial as part of the Stanford CS224W course project. In the tutorial, I analyze the power of knowledge graph (KG) embedding representations through the task of predicting missing triples in the Freebase dataset. First, I overview knowledge graphs and discuss the task of predicting missing triplets. Second, I look at a popular dataset used to learn KG models, namely FB15k-237. Third, I implement a popular KG method for learning knowledge graph embeddings (namely TransE) and analyze the results. Fourth, I explore symmetric relations in the FB15k-237 dataset, which TransE is not able to accurately represent.</p>
-</p>
-        <ul class="list-inline">
-            
+        
+        <div style="width:25%;float:left;">
+            <img src=BioXtract.png/>
+        </div>
+
+        <div style="width:75%;float:left;">
+            <div style="margin-left:1em;">
+                <h3 style="line-height: 1.2em;margin-block-start:0em;">BioXtract: Learning Biomedical Knowledge From General and Random Data</h3>
                 
-                    <li>
-                        <a class="btn" href=https://medium.com/stanford-cs224w/knowledge-graph-embeddings-simplistic-and-powerful-representations-ed43a1a73c7c>Blog Post</a>
-                    </li>
-                
-                    <li>
-                        <a class="btn" href=https://colab.research.google.com/drive/12IRVpTWeXZjKGabeQjrpajgE86LAGUbE?usp&#61;sharing>Colab</a>
-                    </li>
-                
-            
-        </ul>
+                <p>CS 224n Final Project</p>
+
+                <p>
+                    
+                        
+                                [<a href=https://web.stanford.edu/class/cs224n/reports/final_reports/report037.pdf>Paper</a>]
+                        
+                    
+                </p>
+            </div>
+        </div>
     </div>
+
+
+
     
+    
+    
+
+    <div class="projects">
+        
+        <div style="width:25%;float:left;">
+            <img src=TransE_blog_formatted_thumbnail.png/>
+        </div>
+
+        <div style="width:75%;float:left;">
+            <div style="margin-left:1em;">
+                <h3 style="line-height: 1.2em;margin-block-start:0em;">Tutorial - Knowledge Graph Embeddings: Simplistic and Powerful Representations</h3>
+                
+                <p>CS 224w Final Project</p>
+
+                <p>
+                    
+                        
+                                [<a href=https://medium.com/stanford-cs224w/knowledge-graph-embeddings-simplistic-and-powerful-representations-ed43a1a73c7c>Blog Post</a>]
+                        
+                                [<a href=https://colab.research.google.com/drive/12IRVpTWeXZjKGabeQjrpajgE86LAGUbE?usp&#61;sharing>Colab</a>]
+                        
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
 </div>
 
 

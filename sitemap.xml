@@ -2,15 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://markendo.github.io/projects/gaitforemer/</loc>
+    <loc>https://markendo.github.io/publications/gaitforemer/</loc>
   </url><url>
-    <loc>https://markendo.github.io/projects/report-clip/</loc>
+    <loc>https://markendo.github.io/publications/evaluating-cxr-progress/</loc>
   </url><url>
-    <loc>https://markendo.github.io/projects/chexseg/</loc>
+    <loc>https://markendo.github.io/publications/report-clip/</loc>
   </url><url>
-    <loc>https://markendo.github.io/projects/bioxtract/</loc>
+    <loc>https://markendo.github.io/other_projects/bioxtract/</loc>
   </url><url>
-    <loc>https://markendo.github.io/projects/transe/</loc>
+    <loc>https://markendo.github.io/publications/chexseg/</loc>
+  </url><url>
+    <loc>https://markendo.github.io/other_projects/transe/</loc>
   </url><url>
     <loc>https://markendo.github.io/about_me/</loc>
   </url><url>
@@ -20,9 +22,11 @@
   </url><url>
     <loc>https://markendo.github.io/tags/markdown/</loc>
   </url><url>
+    <loc>https://markendo.github.io/other_projects/</loc>
+  </url><url>
     <loc>https://markendo.github.io/categories/project/</loc>
   </url><url>
-    <loc>https://markendo.github.io/projects/</loc>
+    <loc>https://markendo.github.io/publications/</loc>
   </url><url>
     <loc>https://markendo.github.io/tags/</loc>
   </url>
