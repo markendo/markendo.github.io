@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://markendo.github.io/other_projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>NS-Traj: Neuro-Symbolic Human Trajectory Grounding</title>
+      <link>https://markendo.github.io/other_projects/ns-traj/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://markendo.github.io/other_projects/ns-traj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>BioXtract: Learning Biomedical Knowledge From General and Random Data</title>
       <link>https://markendo.github.io/other_projects/bioxtract/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
