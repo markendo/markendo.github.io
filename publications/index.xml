@@ -16,15 +16,6 @@
     </item>
     
     <item>
-      <title>Evaluating Progress in Automatic Chest X-Ray Radiology Report Generation</title>
-      <link>https://markendo.github.io/publications/evaluating-cxr-progress/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://markendo.github.io/publications/evaluating-cxr-progress/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Retrieval-Based Chest X-Ray Report Generation Using a Pre-trained Contrastive Language-Image Model</title>
       <link>https://markendo.github.io/publications/report-clip/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -40,6 +31,15 @@
       
       <guid>https://markendo.github.io/publications/chexseg/</guid>
       <description>Abstract: Medical image segmentation models are typically supervised by expert annotations at the pixel-level, which can be expensive to acquire. In this work, we propose a method that combines the high quality of pixel-level expert annotations with the scale of coarse DNN-generated saliency maps for training multi-label semantic segmentation models. We demonstrate the application of our semi-supervised method, which we call CheXseg, on multi-label chest X-ray interpretation. We find that CheXseg improves upon the performance (mIoU) of fully-supervised methods that use only pixel-level expert annotations by 9.</description>
+    </item>
+    
+    <item>
+      <title>Evaluating Progress in Automatic Chest X-Ray Radiology Report Generation</title>
+      <link>https://markendo.github.io/publications/evaluating-cxr-progress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://markendo.github.io/publications/evaluating-cxr-progress/</guid>
+      <description></description>
     </item>
     
   </channel>

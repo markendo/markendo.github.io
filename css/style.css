@@ -8,6 +8,23 @@ a {
   color: #3985d5;
 }
 
+.button {
+  text-decoration: none;
+  color: #3985d5;
+}
+
+.button:hover {
+  color: black;
+}
+
+.title_link {
+  color: black;
+}
+
+.title_link:hover {
+  text-decoration: underline;
+}
+
 .projects {
   overflow: hidden;
   padding: 1em;

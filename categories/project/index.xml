@@ -16,12 +16,21 @@
     </item>
     
     <item>
-      <title>Evaluating Progress in Automatic Chest X-Ray Radiology Report Generation</title>
-      <link>https://markendo.github.io/publications/evaluating-cxr-progress/</link>
+      <title>Retrieval-Based Chest X-Ray Report Generation Using a Pre-trained Contrastive Language-Image Model</title>
+      <link>https://markendo.github.io/publications/report-clip/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://markendo.github.io/publications/evaluating-cxr-progress/</guid>
-      <description></description>
+      <guid>https://markendo.github.io/publications/report-clip/</guid>
+      <description>Abstract: We propose CXR-RePaiR: a retrieval-based radiology report generation approach using a pre-trained contrastive language-image model. Our method generates clinically accurate reports on both in-distribution and out-of-distribution data. CXR-RePaiR outperforms or matches prior report generation methods on clinical metrics, achieving an average F1 score of 0.352 (Δ+7.98%) on an external radiology dataset (CheXpert). Further, we implement a compression approach used to reduce the size of the reference corpus and speed up the runtime of our retrieval method.</description>
+    </item>
+    
+    <item>
+      <title>CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation</title>
+      <link>https://markendo.github.io/publications/chexseg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://markendo.github.io/publications/chexseg/</guid>
+      <description>Abstract: Medical image segmentation models are typically supervised by expert annotations at the pixel-level, which can be expensive to acquire. In this work, we propose a method that combines the high quality of pixel-level expert annotations with the scale of coarse DNN-generated saliency maps for training multi-label semantic segmentation models. We demonstrate the application of our semi-supervised method, which we call CheXseg, on multi-label chest X-ray interpretation. We find that CheXseg improves upon the performance (mIoU) of fully-supervised methods that use only pixel-level expert annotations by 9.</description>
     </item>
     
     <item>
@@ -34,15 +43,6 @@
     </item>
     
     <item>
-      <title>Retrieval-Based Chest X-Ray Report Generation Using a Pre-trained Contrastive Language-Image Model</title>
-      <link>https://markendo.github.io/publications/report-clip/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://markendo.github.io/publications/report-clip/</guid>
-      <description>Abstract: We propose CXR-RePaiR: a retrieval-based radiology report generation approach using a pre-trained contrastive language-image model. Our method generates clinically accurate reports on both in-distribution and out-of-distribution data. CXR-RePaiR outperforms or matches prior report generation methods on clinical metrics, achieving an average F1 score of 0.352 (Δ+7.98%) on an external radiology dataset (CheXpert). Further, we implement a compression approach used to reduce the size of the reference corpus and speed up the runtime of our retrieval method.</description>
-    </item>
-    
-    <item>
       <title>BioXtract: Learning Biomedical Knowledge From General and Random Data</title>
       <link>https://markendo.github.io/other_projects/bioxtract/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -52,12 +52,12 @@
     </item>
     
     <item>
-      <title>CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation</title>
-      <link>https://markendo.github.io/publications/chexseg/</link>
+      <title>Evaluating Progress in Automatic Chest X-Ray Radiology Report Generation</title>
+      <link>https://markendo.github.io/publications/evaluating-cxr-progress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://markendo.github.io/publications/chexseg/</guid>
-      <description>Abstract: Medical image segmentation models are typically supervised by expert annotations at the pixel-level, which can be expensive to acquire. In this work, we propose a method that combines the high quality of pixel-level expert annotations with the scale of coarse DNN-generated saliency maps for training multi-label semantic segmentation models. We demonstrate the application of our semi-supervised method, which we call CheXseg, on multi-label chest X-ray interpretation. We find that CheXseg improves upon the performance (mIoU) of fully-supervised methods that use only pixel-level expert annotations by 9.</description>
+      <guid>https://markendo.github.io/publications/evaluating-cxr-progress/</guid>
+      <description></description>
     </item>
     
     <item>
